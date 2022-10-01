@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recyclerItemCard"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="0dp"
+    card_view:cardElevation="2dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textAppearance="@style/TextAppearance.Compat.Notification.Title" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

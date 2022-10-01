@@ -1,0 +1,1 @@
+web: ./build/install/ru.students.students-api/bin/ru.students.students-api
